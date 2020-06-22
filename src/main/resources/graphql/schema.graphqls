@@ -1,0 +1,9 @@
+type Query {
+  getPeople: [Person!]
+  getPerson(id: ID): Person
+}
+
+type Person {
+  id: ID
+  name: String
+}
